@@ -1,50 +1,40 @@
 <h1>Banks Pedro API</h1>
-Overview
-The Banks Pedro API is a RESTful API designed for managing banking operations, including user accounts, transactions, and financial services. This API provides a secure and efficient way for clients to interact with their bank accounts through a modern digital banking platform.
+<h2>Features</h2>
+<ul>
+  <li>User Management: Create, update, and delete user accounts.</li>
+  <li>Account Operations: Check balance, make deposits, withdrawals, and transfers.</li>
+  <li>Transaction History: Retrieve a list of transactions for each user.</li>
+  <li>Secure Authentication: Implemented with token-based authentication for secure access.</li>
+</ul>
+<h2>Technologies Used</h2>
+<ul>
+  <li> Node.js: JavaScript runtime for building the server.</li>
+  <li>Express.js: Web framework for building the RESTful API.</li>
+  <li>Sequelize: ORM for interacting with the database (MySQL/MariaDB).</li>
+  <li>JWT (JSON Web Tokens): For secure user authentication.</li>
+  <li>Multer: For handling file uploads (if applicable).</li>
+  <li>dotenv: For managing environment variables.</li>
+</ul>
 
-Features
-User Management: Create, update, and delete user accounts.
-Account Operations: Check balance, make deposits, withdrawals, and transfers.
-Transaction History: Retrieve a list of transactions for each user.
-Secure Authentication: Implemented with token-based authentication for secure access.
-Technologies Used
-Node.js: JavaScript runtime for building the server.
-Express.js: Web framework for building the RESTful API.
-Sequelize: ORM for interacting with the database (MySQL/MariaDB).
-JWT (JSON Web Tokens): For secure user authentication.
-Multer: For handling file uploads (if applicable).
-dotenv: For managing environment variables.
-Installation
-Clone the repository:
-
-bash
-Copiar código
+<h1>Installation</h1>
 git clone https://github.com/yourusername/banks-pedro-api.git
 cd banks-pedro-api
-Install dependencies:
 
-bash
-Copiar código
+<h2>Install dependencies:</h2>
 npm install
-Create a .env file in the root directory and add your database configuration:
 
-makefile
-Copiar código
+<h2>Create a .env file in the root directory and add your database configuration:</h2>
 DATABASE=gacha
 DATABASE_HOST=localhost
 DATABASE_PORT=3308
 DATABASE_USERNAME=root
 DATABASE_PASSWORD=your_password
-Run migrations (if applicable):
 
-bash
-Copiar código
+<h2>Run migrations (if applicable):</h2>
 npx sequelize-cli db:migrate
-Start the server:
 
-bash
-Copiar código
-npm run dev
+<h2>Start the server:</h2>
+
 API Endpoints
 User Management
 Create User: POST /api/users
