@@ -5,8 +5,7 @@ The **Banks Pedro API** is a RESTful API designed for managing banking operation
 
 ## Features
 - **User Management:** Create, update, and delete user accounts.
-- **Account Operations:** Check balance, make deposits, withdrawals, and transfers.
-- **Transaction History:** Retrieve a list of transactions for each user.
+- **Account Operations:** Check balance.
 - **Secure Authentication:** Implemented with token-based authentication for secure access.
 
 ## Technologies Used
